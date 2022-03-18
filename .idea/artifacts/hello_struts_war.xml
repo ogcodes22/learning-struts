@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hello-struts:war">
+    <output-path>$PROJECT_DIR$/hello-struts/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hello-struts</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hello-struts-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hello-struts:war exploded" />
+    </root>
+  </artifact>
+</component>
